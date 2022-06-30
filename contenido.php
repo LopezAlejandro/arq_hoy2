@@ -58,7 +58,7 @@ include "header1.php";
 		    			}
 		    	?>			 
 		   <li class="page-item">
-		      <a class="page-link" href="?disk=<?php echo $total_pages; ?>">Último</a>
+		      <a class="page-link" href="?disk=<?php echo $total_pages; ?>">&Uacute;ltimo</a>
 		   </li>
 	  </ul>
 	</nav>
