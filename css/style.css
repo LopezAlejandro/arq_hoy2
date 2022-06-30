@@ -1,0 +1,117 @@
+@import url('./Alegreya Sans.css');
+
+body {
+    font-size: 1.1em;
+    font-family: 'Alegreya Sans';
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Alegreya Sans';
+    }
+    
+    
+.encabezado h3 strong {
+color: #E4D68F
+}
+    
+.text-left {
+  font-family: 'Alegreya Sans';
+  
+}
+
+.text-right {
+  font-family: 'Alegreya Sans';
+  
+}
+    
+.dis-none{
+    display: none;
+}
+#navbar_toggle{
+    position: absolute;
+    right: 1em;
+    top: 2em;
+}
+.h-40{
+    height: 40px !important;
+    min-height: 40px;
+}
+.logo{ width:70px; }
+
+
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+    
+.page-link {
+	color: black;
+	background-color: white;
+	border-color: #e4d68f;
+	}
+	
+.page-link:hover {
+	z-index: 2;
+	color: black;
+	text-decoration: none;
+	background-color: #e4d68f;
+	border-color: #e4d68f;
+	}	 
+	 
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.spacer { 
+	margin:0; padding:0; height:50px; 
+}
+
+#contenido.row p {
+	font-size: 2.0em;
+}
+
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
