@@ -24,7 +24,7 @@ include "header1.php";
 							echo "<h4 class='card-title'>'".$nombre[$x]."'</h4>";
 						}
   					?>
-  					<h4>Artículos :</h4>
+  					<h4>Art&iacute;culos :</h4>
   					
       			<?php
       			while ($columna1 = mysqli_fetch_array( $resultado1 ))
