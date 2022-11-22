@@ -15,7 +15,7 @@ include "header.php";
 						echo "<span>"; 
 						echo "<p>";
 						echo "<a href='pdf3.php?libro=".$columna['ano']."&pdf=".$columna['archivo']."'>";				
-						echo "<span class='oi oi-eye' title='eye' aria-hidden='true'>&nbsp;&nbsp;</span>";
+						echo "<span class='oi oi-eye' title='eye' style='color: black;' aria-hidden='true'>&nbsp;&nbsp;</span>";
 						echo "</a>";
 						echo "<a href='descarga.php?f=pdf/".$columna['ano']."/".$columna['archivo']."'>";						
 						echo "<span class='oi oi-data-transfer-download' title='data-transfer-download' aria-hidden='true'></span>";
